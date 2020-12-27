@@ -92,7 +92,7 @@ setup(
     url='https://rasterinlay.readthedocs.io',
     project_urls={
             "Bug Tracker": github_location + "/issues",
-            "Documentation": 'https://sospcatpy.readthedocs.io',
+            "Documentation": 'https://rasterinlay.readthedocs.io',
             "Source Code": github_location,
         },
     author='Jonas I. Liechti',
