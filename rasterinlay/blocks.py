@@ -152,10 +152,10 @@ def get_superblocks(
     Parameters
     ==========
     raster:
-        A 2D `.numpy.ndarray` in which blocks with an identical value should be
-        found
+        A 2D :class:`numpy.ndarray` in which blocks with an identical value
+        should be found
     counts:
-        2D `.numpy.ndarray` holding the counts of same valued diagonals.
+        2D :class:`numpy.ndarray` holding the counts of same valued diagonals.
     outvalue:
         The background value in `raster` that should be ignored in the same
         value counting.
