@@ -1,13 +1,16 @@
 import numpy as np
 from typing import Iterable
 # from typing import Union
+"""This module contains non-essential functions for the exploration and
+verification of the provided functionalities.
+"""
 
 
 def block_contours(
         raster_shape: tuple,
         blocks: Iterable[tuple],
         bordervalue: np.uint8 = 255):
-    """Create 2D `numpy.ndarray` in the shape of 'raster' with box contours.
+    """Create 2D :class:`numpy.ndarray` in the shape of 'raster' with contours.
 
     Parameters
     ==========
