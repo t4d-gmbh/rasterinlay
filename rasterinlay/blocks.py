@@ -501,7 +501,6 @@ def find_blocks(
     counts = get_counts(raster, outvalue=outvalue)
     blocks = []
     while np.any(counts):
-        print(f'looping, with {len(blocks)} blocks')
         min_count = np.min(counts[counts != 0])
         # set smallest non-zero counts to 1
         counts[counts != 0] -= min_count - 1
