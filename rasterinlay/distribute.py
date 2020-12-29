@@ -251,7 +251,7 @@ def inlay(
 
     # pass the views to the set_inlay function
     try:
-        raster_view, block_capacity = set_inlay(
+        raster_view[:], block_capacity = set_inlay(
                 raster_view, const_view, **set_inlay_kwargs
             )
     except MultivaluedBlockError:
