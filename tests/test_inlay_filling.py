@@ -100,7 +100,7 @@ class TestInlayFill(unittest.TestCase):
         self.assertEqual(len(report['ok']), 4)
 
     def test_jammed_blocks(self):
-        """Some blocks are jammed
+        """Run fill inlay with raster and constraints that'll jam some blocks.
         """
         raster, constraints = self.test_data[1]
         raster_orig = raster.copy()
