@@ -114,5 +114,5 @@ setup(
           'Topic :: Scientific/Engineering :: Image Processing'
     ],
     # include_package_data=True,  # includes whatever is in MANIFEST.in
-    # test_suite='tests',
+    test_suite='tests',
 )
