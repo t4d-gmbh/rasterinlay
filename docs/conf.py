@@ -95,6 +95,10 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
     html_theme = "pydata_sphinx_theme"
     import pydata_sphinx_theme
     html_theme_path = pydata_sphinx_theme.get_html_theme_path()
+else:
+    html_theme = "pydata_sphinx_theme"
+    import pydata_sphinx_theme
+    html_theme_path = pydata_sphinx_theme.get_html_theme_path()
 # ############################################################################
 # ############################################################################
 # theme configuration
