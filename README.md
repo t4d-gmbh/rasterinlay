@@ -6,3 +6,11 @@
 
 
 ## Installation
+
+RasterInLay can be installed directly from PyPI:
+
+    pip install RasterInLay
+    
+You can get the latest version from this repository by typing:
+
+    pip install --upgrade --no-deps git+https://github.com/tools4digits/rasterinlay.git
