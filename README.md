@@ -4,7 +4,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4448126.svg)](https://doi.org/10.5281/zenodo.4448126)
 
 
-
 ## Installation
 
 RasterInLay can be installed directly from PyPI:
@@ -14,3 +13,5 @@ RasterInLay can be installed directly from PyPI:
 Alternatively you can get the latest version from this repository by typing:
 
     pip install --upgrade --no-deps git+https://github.com/tools4digits/rasterinlay.git
+
+

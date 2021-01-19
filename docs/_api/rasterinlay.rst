@@ -15,4 +15,3 @@ Submodules
    rasterinlay.blocks
    rasterinlay.distribute
    rasterinlay.helpers
-   rasterinlay.raredist

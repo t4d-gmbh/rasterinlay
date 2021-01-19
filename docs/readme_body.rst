@@ -1,2 +1,2 @@
 .. mdinclude:: ../README.md
-  :start-line: 1
+  :start-line: 17
